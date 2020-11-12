@@ -11,6 +11,5 @@ def run_guessing_game
     puts "You guessed the correct number!"
   elsif users_input != random_number
     puts "Sorry! The computer guessed #{random_number}."
-  
   end 
 end 
